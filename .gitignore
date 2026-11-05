@@ -1,0 +1,38 @@
+# Arquivos do jogo e chaves: NUNCA versionar
+*.xci
+*.nsp
+*.nca
+*.nso
+*.keys
+prod.keys
+title.keys
+extracted/
+generated/
+generated-*/
+
+# Build
+build/
+*.apk
+*.so
+*.o
+
+# APK, data pack e dados do jogo
+letsgo-data*.zip
+datapack*/
+*.bin
+
+# Keystore e credenciais
+*.keystore
+*.jks
+
+# Arte do launcher (oficial do jogo): fica fora, como no repo do Eevee
+apk/assets/*.jpg
+
+# Logs e temporários
+*.log
+.venv/
+gen-venv/
+mods/
+cache/
+save/
+larecomp.ini
